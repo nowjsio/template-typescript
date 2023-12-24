@@ -1,4 +1,4 @@
-import Logging from '../../src/service/logging';
+import Logging from '@/service/logging';
 
 describe('Logging', () => {
   test('run pritnOut success test', () => {

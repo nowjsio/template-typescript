@@ -1,5 +1,7 @@
-import Logging from './service/logging';
-import HttpClient from './service/http-client';
+import Logging from '@/service/logging';
+import HttpClient from '@/service/http-client';
+// import Logging from './service/logging';
+// import HttpClient from './service/http-client';
 
 class Person {
   name: string;

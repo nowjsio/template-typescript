@@ -1,5 +1,5 @@
 import { jest } from '@jest/globals';
-import HttpClient from '../../src/service/http-client';
+import HttpClient from '@/service/http-client';
 
 jest.mock('../../src/service/http-client');
 const mockedHttpClient = jest.mocked(HttpClient);
