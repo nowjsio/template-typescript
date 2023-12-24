@@ -21,7 +21,7 @@ A template for a project using typescript without react
 Tools needed to run this app: `node` and `npm`
 
 - `npm install` to install dependencies
-- `npm run build` to transcompile .ts files `[commonjs, esm, umd, types]`
+- `npm run build` to transcompile .ts files `[commonjs, esm, amd, umd, bundling(using commonjs, webpack), types]`
     - sample .ts files will be converted .js files into the `dist` folders.
 - `npm install -g typescript ts-node`
     - `tsc` to transcompile .ts files
