@@ -4,7 +4,7 @@ module.exports = {
   mode: 'production',
   entry: './src/index.ts',
   output: {
-    path: path.resolve(__dirname, '../dist/umd'),
+    path: path.resolve(__dirname, '../dist/webpack'),
     filename: 'index.js',
     library: 'exampleTypescriptPackage',
     libraryTarget: 'umd',
@@ -25,7 +25,7 @@ module.exports = {
         use: {
           loader: 'ts-loader',
           options: {
-            configFile: 'config/tsconfig.umd.json',
+            configFile: 'config/tsconfig.webpack.json',
           },
         },
       },
